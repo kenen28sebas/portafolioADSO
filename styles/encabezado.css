@@ -1,0 +1,56 @@
+@import url("/styles/fonts.css");
+
+
+.encabezado{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("/img/nadador.jpg");
+}
+
+.encabezado__opciones{
+    width: 100%;
+    
+}
+.encabezado__contenedor_titulo{
+    height: 100%;
+    width: 100%;
+    
+    background-color: #FF6200 ;
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado__titulo{
+    font-family: "space";
+    font-size: 78px;
+    color: transparent;
+    background-color: #ffffff;
+    opacity: 1;
+    background-clip:text;
+} 
+.encabezado__imagen{
+    position: absolute;
+    opacity:initial;
+}
+
+.encabezado__imagen.s1,.s2,.s5{
+    top: 100px;
+    right: 80vh;
+    width: 22px;
+    height: 22px;
+}
+
+.encabezado__imagen.s4,.s3,.s6{
+    top: 50px;
+    bottom: 70px;
+    left: 50vh;
+    width: 55px;
+    height: 55px;
+}

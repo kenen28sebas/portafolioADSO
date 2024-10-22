@@ -1,0 +1,94 @@
+@import url("/styles/fonts.css");
+#atletismo.contenedor_deporte{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-color: #a0c400;
+}
+
+#futbol.contenedor_deporte{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-color: #00c410;
+}
+
+#beisbol.contenedor_deporte{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #1400c4;
+
+}
+
+#baloncesto.contenedor_deporte{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #c41d00;
+}
+
+.contenedor_deporte__info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 50px 0 50px;
+    box-sizing: border-box;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+.contenedor_deporte__nombre{
+    font-family: "space";
+    font-size: 2rem;
+}
+
+
+
+.contenedor_deporte__descripcion{
+    font-family: "coffe";
+    font-size: 1.2rem;
+}
+
+.contenedor_deporte__media{
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+#atletismo .contenedor_deporte__media{
+    width: 50%;
+    height: 100%;
+    background-image: url("/img/atletismo.jpg");
+    background-size: 100% 100%;
+}
+
+#beisbol .contenedor_deporte__media{
+    width: 50%;
+    height: 100%;
+    background-image: url("/img/R.jpeg");
+    background-size: 100% 100%;
+}
+
+#futbol .contenedor_deporte__media{
+    width: 50%;
+    height: 100%;
+    background-image: url("/img/w.jpg");
+    background-size: 100% 100%;
+}
+
+#baloncesto .contenedor_deporte__media{
+    width: 50%;
+    height: 100%;
+    background-image: url("/img/Rs.jpeg");
+    background-size: 100% 100%;
+}
+

@@ -1,0 +1,45 @@
+@import url("/styles/fonts.css");
+.contenedor_descripcion{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    position: relative;
+    background-color: #000000;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+.contenedor_descripcion__encabezado{
+    height: 20%;
+    width: 50%;
+    text-align: center;
+}
+
+.contenedor_descripcion__titulo{
+    font-family: "space";
+    font-size: 32px;
+    color: #FF6200;
+}
+
+.contenedor_descripcion__info{
+    display: flex;
+    width: 60%;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.contenedor_descripcion__parrafo{
+    font-family: "coffe";
+    color: aliceblue;
+    text-wrap: wrap;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing:2px;
+    word-spacing:3px;
+
+}
